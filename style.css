@@ -133,14 +133,6 @@ hr.light-100{
 }
 
 
-  /*---Media Queries --*/
-  @media (max-width: 992px) {}
-
-  @media (max-width: 768px) {}
-
-  @media (max-width: 576px) {}
-
-
   /*---Firefox Bug Fix --*/
   .carousel-item {
     transition: -webkit-transform 0.5s ease;
@@ -192,9 +184,30 @@ hr.light-100{
 
 
 
+  @media (max-width: 575px) { 
+    .carousel-caption {
+      position: absolute;
+      top: 45%;
+    }
+    .carousel-caption h1 {
+      font-size: 200%;
+    }
+    .carousel-caption h3 {
+      font-size: 120%;
+      font-weight: 400;
+      padding-bottom: .2rem;
+    }
+    .carousel-caption p {
+      font-size: 100%;
+      padding: 8px 14px;
+    }
+    .btn1{
+      font-size:.5rem;
+    }
+  }
+  
 
-
-@media (max-width: 576px) { 
+@media (min-width: 576px) { 
   .carousel-caption {
     position: absolute;
     top: 45%;
@@ -212,7 +225,7 @@ hr.light-100{
     padding: 8px 14px;
 }
 }
-@media (max-width: 768px) { 
+@media (min-width: 768px) { 
   .carousel-caption {
     position: absolute;
     top: 45%;
