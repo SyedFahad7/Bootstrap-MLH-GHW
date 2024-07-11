@@ -1,6 +1,8 @@
 # Bootstrap Website Template
 ![PC Preview](img/preview.png)
+
 ![Tablet Preview](img/preview1.png)
+
 ![Mobile Preview](img/preview2.png)
 
 ## What it does
